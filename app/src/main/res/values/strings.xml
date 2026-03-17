@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تواري</string>
+    <string name="app_name_full">تواري - نظام الطوارئ</string>
+    <string name="app_description">نظام الاستجابة السريعة للطوارئ</string>
+    
+    <!-- Tabs -->
+    <string name="tab_emergency">طوارئ</string>
+    <string name="tab_reports">بلاغاتي</string>
+    <string name="tab_contact">تواصل</string>
+    <string name="tab_info">معلومات</string>
+    
+    <!-- Emergency -->
+    <string name="sos_title">SOS</string>
+    <string name="sos_subtitle">بلاغ طوارئ فوري</string>
+    <string name="sos_hint">اضغط لإرسال بلاغ طوارئ فوري مع موقعك</string>
+    <string name="select_emergency_type">حدد نوع الطارئ</string>
+    
+    <!-- Emergency Types -->
+    <string name="type_sos">SOS</string>
+    <string name="type_fire">حريق</string>
+    <string name="type_injury">إصابة</string>
+    <string name="type_threat">تهديد</string>
+    <string name="type_accident">حادث</string>
+    <string name="type_trapped">احتجاز</string>
+    <string name="type_other">أخرى</string>
+    
+    <!-- Connection Status -->
+    <string name="status_connected">متصل</string>
+    <string name="status_disconnected">غير متصل</string>
+    <string name="status_connecting">جاري الاتصال...</string>
+    <string name="village_a">قرية A</string>
+    <string name="village_b">قرية B</string>
+    
+    <!-- Report Status -->
+    <string name="status_pending">في الانتظار</string>
+    <string name="status_active">تحت الاستجابة</string>
+    <string name="status_done">مكتمل</string>
+    
+    <!-- Location -->
+    <string name="location_detected">تم تحديد موقعك</string>
+    <string name="location_detecting">جاري تحديد الموقع...</string>
+    <string name="location_required">يرجى السماح بالوصول للموقع</string>
+    <string name="location_unavailable">الموقع غير متاح</string>
+    
+    <!-- Messages -->
+    <string name="msg_not_connected">يجب الاتصال بشبكة القرية أولاً</string>
+    <string name="msg_connect_to_village">اتصل بشبكة Tawari-Qarya</string>
+    <string name="msg_report_sent">تم إرسال بلاغك بنجاح</string>
+    <string name="msg_report_saved">تم حفظ البلاغ وسيُرسل عند الاتصال</string>
+    <string name="msg_send_failed">فشل إرسال البلاغ</string>
+    <string name="msg_will_contact">سيتم التواصل معك قريباً</string>
+    
+    <!-- Buttons -->
+    <string name="btn_send">إرسال</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="btn_ok">حسناً</string>
+    <string name="btn_retry">إعادة المحاولة</string>
+    <string name="btn_chat">تواصل</string>
+    <string name="btn_enter">دخول</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_confirm_sos">تأكيد بلاغ الطوارئ</string>
+    <string name="dialog_confirm_sos_msg">هل تريد إرسال بلاغ طوارئ فوري؟</string>
+    <string name="dialog_add_note">ملاحظة إضافية</string>
+    <string name="dialog_note_hint">أضف تفاصيل (اختياري)</string>
+    <string name="dialog_success">تم بنجاح</string>
+    <string name="dialog_enter_name">أدخل اسمك</string>
+    <string name="dialog_name_hint">الاسم</string>
+    
+    <!-- Empty States -->
+    <string name="empty_reports">لا توجد بلاغات</string>
+    <string name="empty_reports_desc">بلاغاتك ستظهر هنا</string>
+    <string name="empty_agents">لا يوجد عملاء متاحين</string>
+    <string name="empty_agents_desc">تواصل لاحقاً</string>
+    <string name="empty_content">لا توجد معلومات</string>
+    <string name="empty_content_desc">ستظهر الإرشادات هنا</string>
+    
+    <!-- Sections -->
+    <string name="section_active_reports">البلاغات النشطة</string>
+    <string name="section_past_reports">السجل السابق</string>
+    <string name="section_emergency_agents">عملاء الطوارئ</string>
+    <string name="section_safety_tips">إرشادات السلامة</string>
+    <string name="section_instructions">التعليمات</string>
+    <string name="section_shelters">نقاط التجمع</string>
+    
+    <!-- Content Types -->
+    <string name="content_instruction">تعليمات</string>
+    <string name="content_safety">سلامة</string>
+    <string name="content_shelter">ملجأ</string>
+    <string name="content_faq">أسئلة شائعة</string>
+    
+    <!-- Agent -->
+    <string name="agent_available">متاح</string>
+    <string name="agent_busy">مشغول</string>
+    <string name="agent_title">عميل طوارئ</string>
+    
+    <!-- Chat -->
+    <string name="chat_placeholder">اكتب رسالة...</string>
+    <string name="chat_start">بداية المحادثة</string>
+    
+    <!-- Network -->
+    <string name="network_offline">غير متصل بالشبكة</string>
+    <string name="network_offline_desc">تأكد من اتصالك بشبكة القرية</string>
+</resources>
