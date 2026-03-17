@@ -17,15 +17,21 @@ jobs:
       uses: actions/setup-java@v4
       with:
         distribution: 'temurin'
-        java-version: '11'
+        java-version: '17'  # غيرناها من 11 إلى 17
         
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.10.0'
+        flutter-version: '3.13.0'  # غيرناها لأحدث إصدار
         
+    - name: Enable Flutter Web
+      run: flutter config --enable-web
+      
     - name: Install dependencies
       run: flutter pub get
+      
+    - name: Clean build
+      run: flutter clean
       
     - name: Build APK
       run: flutter build apk --debug
